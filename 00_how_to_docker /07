@@ -1,0 +1,3 @@
+docker inspect -f '{{.NetworkSettings.IPAddress}}' overlord
+
+# -f filter - selects the field to display

@@ -1,0 +1,17 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+  redis:
+    image: "redis:alpine"
+
+    # The web service uses an image that’s built from the Dockerfile 
+    # in the current directory. It then binds the container and the host
+    # machine to the exposed port, 5000. This example service uses the
+    # default port for the Flask web server, 5000.
+
+    #docker-compose up - builds up dockerfile and compose 
+    #docker-compose down 
+    #docker-compose stop

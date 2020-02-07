@@ -1,0 +1,5 @@
+docker run -d --name liar -p 8080:80 --link spawning-pool:mysql wordpress
+
+# --link to link another container
+# :mysql  alias for the link that is created
+#check on browser using ip&port
