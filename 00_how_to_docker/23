@@ -1,0 +1,4 @@
+docker network create -d overlay overmind
+
+#-d, --driver string — driver to manage the Network (default "bridge").
+#docker network ls to check if created

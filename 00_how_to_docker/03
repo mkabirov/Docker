@@ -1,0 +1,4 @@
+eval $(docker-machine env Char)
+
+#check virtual-machine ls you see *
+#makes Char active and "defaults" vm
