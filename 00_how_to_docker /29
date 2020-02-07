@@ -1,3 +1,0 @@
-docker service ps marines
-
-#ps — List the tasks of one or more services

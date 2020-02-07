@@ -1,3 +1,0 @@
-docker inspect -f '{{.Config.Env}}' spawning-pool
-
-# -f filter - selects the field to display

@@ -1,3 +1,0 @@
-docker logs -f spawning-pool
-
-# -f filter - container’s logs in real time without running its shell

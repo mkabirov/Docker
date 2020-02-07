@@ -1,7 +1,0 @@
-docker service ls
-
-#Docker service will be the image for a microservice within the 
-#context of some larger application. Examples of services might 
-#include an HTTP server, a database, or any other type of executable 
-#program that you wish to run in a distributed environment.
-#https://docs.docker.com/engine/reference/commandline/service_ps

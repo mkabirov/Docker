@@ -1,6 +1,0 @@
-docker run -it --rm alpine /bin/sh  
-
-# -it  interactive mode - used with run command, to interact directly with the container via your terminal
-# --rm remove when done
-# alpine - image and 
-# /bin/sh -  command

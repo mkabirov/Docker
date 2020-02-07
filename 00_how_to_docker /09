@@ -1,8 +1,0 @@
-#first run: docker run -ti --rm debian
-
-apt-get update
-apt-get upgrade -y
-apt-get install -y build-essential git
-
-#it has everithing C needs
-

@@ -1,8 +1,0 @@
-#docker service scale -d marines=20
-
-#scale — Scale one or multiple replicated services.
-
-#check logs:
-#docker service logs -f $(docker service ps marines -f "name=marines.11" -q)
-# or
-#docker service logs -f marines   

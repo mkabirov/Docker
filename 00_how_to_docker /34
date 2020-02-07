@@ -1,4 +1,0 @@
-docker-machine rm -y Aiur 
-
-#-y yes - automatic yes to proceed with remove,
-# without prompting further user confirmation.
